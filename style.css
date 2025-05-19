@@ -1,0 +1,12 @@
+.primeiroelemento{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NA{
+    margin-right: 65px;
+}
