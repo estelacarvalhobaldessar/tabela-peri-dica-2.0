@@ -8,19 +8,25 @@ for (let linha = 1; linha <= 7; linha++) {
     for (let coluna = 1; coluna <=18; coluna++) {
 
         // procurar no array pela linha e coluna e captura os dados do no do elemento
+        let dado = colecaoElementos.find(elemento => elemento.linha === linha && elemento.coluna === coluna);
+        
+        if( typeof dado === "undefined" ){
+            tabela += `<td class="semelemento"></td>`;        
+        }else{
+            tabela += `<td class="elemento" id="" style="background-color:${dado.corGrupo}">
+                        <span class="NA">${dado.numeroAtomico}</span>
+                        <span class="S">${dado.simbolo}</span> 
+                        <span class="NOME">${dado.nome}</span> 
+                        <span class="MA">${dado.massaAtomica}</span>
+                    </td>`;            
+        }
 
-        //
-        tabela += `<td class="elemento">
-                        <span class="NA">1</span>
-                        <span class="S">H</span> 
-                        <span class="NOME">Hidrogênio</span> 
-                        <span class="MA">1,008</span>
-                    </td>`;        
+       
     }
     
 
     tabela += '</tr>';
-    
+
 }
 
 

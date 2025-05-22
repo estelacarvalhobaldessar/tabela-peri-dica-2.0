@@ -1,10 +1,21 @@
 .elemento{
-    height: 80px;
-    width: 80px;
-    background-color: aqua;
-    
+    height: 90px;
+    width: 90px;
     align-items: center;
+    
+}
+.semelemento{
+    height: 90px;
+    width: 90px;
+    background-color: white;
 }
 .NA{
     margin-right: 65px;
+    
+}
+.S{
+    margin-right: 80px; 
+}
+.NOME{
+    margin-right: 30px;
 }
