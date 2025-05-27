@@ -1,7 +1,7 @@
 let tabela = '<table>';
 
 // criar as linhas dinamicamente
-for (let linha = 1; linha <= 7; linha++) {
+for (let linha = 1; linha <= 10; linha++) {
     
     tabela += '<tr>';
     
