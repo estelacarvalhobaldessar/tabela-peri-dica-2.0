@@ -4,6 +4,9 @@
     align-items: center;
     
 }
+#tabelaPeriodica table tr td{
+    cursor: grab;
+}
 .semelemento{
     height: 90px;
     width: 90px;
@@ -22,10 +25,10 @@
 .caixona{
     height: 185px;
     width: 1136px;
-    background-color: aqua;
+    
     z-index: 999999;
-    margin-top: -563px;
-    margin-left: 219px;
+    margin-top: -845px;
+    margin-left: 230px;
     display: flex;
     align-items: center;
 }
@@ -45,7 +48,7 @@
 }
 .dados{
     height: 185px;
-    background-color: red;
+    background-color:#d8cdcd;
     width: 960px;
     margin-left: 5px;
     padding: 0px;
@@ -54,17 +57,17 @@
     height: 155px;
     display: block;
     float: left;
-    border: 1px solid yellow;
+    border: 1px solid rgb(2, 2, 2);
     width: 930px;
     margin-left: 9px;
     padding: 0;
 }
 .dados ul li{
-    width: 230px;
+    width: 463px;
     height: auto;
     float: left;
     display: block;
     list-style-type: none;
-    border: 1px solid yellowgreen;
+    border: 1px solid rgb(1, 1, 1);
     padding: 0;
 }
